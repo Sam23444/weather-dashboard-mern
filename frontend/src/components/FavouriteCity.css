@@ -1,0 +1,58 @@
+.favorite-cities {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 16px;
+  background-color: #f5f8fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.favorite-cities h3 {
+  margin-bottom: 12px;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+}
+
+.favorite-cities ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.favorite-cities li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.favorite-cities li:last-child {
+  border-bottom: none;
+}
+
+.favorite-cities button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+.favorite-cities button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.favorite-cities button:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.favorite-cities button + button {
+  margin-left: 8px;
+}
