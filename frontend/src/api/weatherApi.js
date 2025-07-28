@@ -1,6 +1,8 @@
 const API_KEY = import.meta.env.VITE_OPENWEATHER_API_KEY;
 const BASE_URL = "https://api.openweathermap.org/data/2.5";
 const BACKEND_URL = "http://localhost:5000"; // backend base URL
+const BACKEND_URL = "https://https://weather-dashboard-mern-ap0d.onrender.com/api/favorites";
+
 
 const API_URL = "http://localhost:5000/api/favorites"; // Backend base URL
 
